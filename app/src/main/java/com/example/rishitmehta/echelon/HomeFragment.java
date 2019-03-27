@@ -32,14 +32,21 @@ public class HomeFragment extends Fragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                updateDetail();
+                Intent intent = new Intent(getActivity(), Semester4.class);
+                startActivity(intent);
+            }
+        });
+
+        Button button2 = (Button) rootView.findViewById(R.id.btLibrary);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), Library.class);
+                startActivity(intent);
             }
         });
         return rootView;
     }
 
-    public void updateDetail() {
-        Intent intent = new Intent(getActivity(), Semester4.class);
-        startActivity(intent);
-    }
+
 }
