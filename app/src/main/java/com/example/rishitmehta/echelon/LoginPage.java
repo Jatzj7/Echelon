@@ -62,6 +62,10 @@ public class LoginPage extends AppCompatActivity {
                         if(user.getPassword().equals(Password.getText().toString()))
                         {
                             Toast.makeText(LoginPage.this,"LogIN Sucess",Toast.LENGTH_SHORT).show();
+                            Intent homeIntent = new Intent(LoginPage.this,HomePage.class);
+                            startActivity(homeIntent);
+                            finish();
+
                         }
                         else{
                             Toast.makeText(LoginPage.this,"LogIN Failed",Toast.LENGTH_SHORT).show();
