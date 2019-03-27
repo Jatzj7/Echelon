@@ -28,7 +28,7 @@ public class HomePage extends AppCompatActivity {
                                 selectedFragment = HomeFragment.newInstance();
                                 break;
                             case R.id.action_item2:
-
+                                selectedFragment = Dashboard.newInstance();
                                 break;
                             case R.id.action_item3:
                                 selectedFragment = ProfileFragment.newInstance();
