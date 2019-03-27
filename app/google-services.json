@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "469041839171",
+    "firebase_url": "https://echelon-app-6af31.firebaseio.com",
+    "project_id": "echelon-app-6af31",
+    "storage_bucket": "echelon-app-6af31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469041839171:android:17c9920b4b730c4e",
+        "android_client_info": {
+          "package_name": "com.example.rishitmehta.echelon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469041839171-2d0dj9m7nuvi287tkfop4p11vpj46lgv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rishitmehta.echelon",
+            "certificate_hash": "34f4869affb863a03c777842c4502566bbe9c315"
+          }
+        },
+        {
+          "client_id": "469041839171-ritht0nmnks7b0b6hplaaehqn196p56g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO5gYgL9CAMQ6qIQWSw7-IEXy8C2ILcec"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469041839171-ritht0nmnks7b0b6hplaaehqn196p56g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
