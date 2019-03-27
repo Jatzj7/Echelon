@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.rishitmehta.echelon">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/icon"
@@ -22,7 +24,7 @@
             android:label="@string/title_activity_home_page" />
         <activity android:name=".Semester4" />
         <activity android:name=".CN" />
-        <activity android:name=".Library"></activity>
+        <!--<activity android:name=".Library"></activity>-->
     </application>
 
 </manifest>
