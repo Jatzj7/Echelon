@@ -25,6 +25,7 @@ public class CN extends AppCompatActivity {
 
     StorageReference ref;
 
+    FirebaseStorage storage = FirebaseStorage.getInstance();
 
 
     @Override
